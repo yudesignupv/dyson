@@ -6,6 +6,7 @@
     width:30px;
     height: auto;
 }
+
 body {    
     font-family: 'HKGroteskLight', sans-serif;
     font-weight: normal;
@@ -28,10 +29,8 @@ hr{
 
 .section-padding{
 	margin-top: 80px; 
-	margin: 80px;
 	justify-content: center;
 	align-items: center;
-    padding-top: 50px;
 }
 
 /*NAVBAR/////////////////////////////////////////////////////////*/
@@ -88,6 +87,7 @@ hr{
     position: absolute;
     top:0;
     left:0;
+    
 }
 
 .memberImgFormal {
@@ -128,9 +128,14 @@ hr{
 
 .sponsors img{
     height: 40px;
-    margin-top: 300px;
     padding-left: auto;
+    margin-top: 30px;
 }
+
+.sponsors{
+    margin-top: 250px;
+}
+
 
 /*CONTACT US/////////////////////////////////////////////////////////*/
 #contactus .btn{
@@ -140,12 +145,12 @@ hr{
 }
 
 
-/*PORTFOLIO*/
+/*PORTFOLIO/////////////////////////////////////////////////////////*/
 .littleimg{
     cursor: pointer;
     transition: 0.3s;
     width: auto;
-    height: 300px;
+    height: 285px;
 }
 
 .littleimg:hover{
@@ -200,7 +205,7 @@ hr{
 	display: block;
 }
 
-#oursolution img{
-    width: 100%;
-    height: auto;
+#oursolution img{    
+    height: 50%;
+	width: auto;
 }
