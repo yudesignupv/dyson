@@ -86,7 +86,8 @@ hr{
 .memberBoxImage img{
     position: absolute;
     top:0;
-    left:0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .memberImgFormal {
@@ -113,7 +114,6 @@ hr{
 .memberBoxDescription{
     margin-top: 210px;
 	text-align: center;
-    margin-right: 50px;
 }
 
 .memberName{
