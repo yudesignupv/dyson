@@ -25,6 +25,7 @@ hr{
     border-radius: 2px;
     margin-top: 0;
     margin-bottom: 30px;
+	width: 50px;
 }
 
 .section-padding{
@@ -80,14 +81,12 @@ hr{
 /*MEMBERS/////////////////////////////////////////////////////////*/
 .memberBoxImage {
     position: relative;	
-	margin:  0 auto;
 }
 
 .memberBoxImage img{
     position: absolute;
     top:0;
     left:0;
-    
 }
 
 .memberImgFormal {
@@ -113,6 +112,7 @@ hr{
 
 .memberBoxDescription{
     margin-top: 210px;
+	text-align: center;
     margin-right: 50px;
 }
 
@@ -122,11 +122,8 @@ hr{
 
 
 /*SPONSORSHIP/////////////////////////////////////////////////////////*/
-.section-sponsorship img{
-    width: auto;
-}
-
 .sponsors img{
+    width: auto;
     height: 40px;
     padding-left: auto;
     margin-top: 30px;
