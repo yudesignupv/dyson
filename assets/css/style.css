@@ -21,9 +21,10 @@ h2{
 }
 
 hr{
-    border: 2px solid #292828;
+    border: 2px solid #E03E52;
     border-radius: 2px;
     margin-top: 0;
+	margin-left: 0;
     margin-bottom: 30px;
 	width: 50px;
 }
@@ -79,7 +80,7 @@ hr{
 }
 
 #oursolution img{    
-    height: 50%;
+    height: auto;
 	width: auto;
 }
 
@@ -170,7 +171,7 @@ hr{
 }
 
 .sponsors{
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 /*CONTACT US/////////////////////////////////////////////////////////*/
@@ -180,8 +181,8 @@ hr{
     border-radius: 20px;
 }
 
-/*FOOTER /////////////////////////////////////////////////////////*/
-.page-footer{
+/*AVISO LEGAL /////////////////////////////////////////////////////////*/
+.page-footer-aviso{
     background-color: #fff;
 	font-size: 9px;
 	border-top: 1px solid #CFCFCF;
@@ -190,4 +191,18 @@ hr{
 	margin-bottom: 0;
 	text-align: left;
 	justify-content: center;
+}
+
+/*FOOTER/////////////////////////////////////////////////////////*/
+.page-footer{
+    background-color: #000;
+	color: #fff;
+	bottom: 0;
+	padding-top: 10px;
+	margin-bottom: 0;
+	font-size: 12px;
+}
+
+.page-footer a{
+	padding-right: 8px;
 }
